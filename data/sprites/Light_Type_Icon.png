@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="65" height="65" viewBox="0 0 65 65">
+  <defs>
+    <radialGradient id="a" cx="32.5" cy="32.52" r="32.5" gradientUnits="userSpaceOnUse">
+      <stop offset="0.75" stop-color="#574300"/>
+      <stop offset="0.76" stop-color="#5d4900"/>
+      <stop offset="0.79" stop-color="#766001"/>
+      <stop offset="0.82" stop-color="#8a7201"/>
+      <stop offset="0.86" stop-color="#987e02"/>
+      <stop offset="0.91" stop-color="#a08602"/>
+      <stop offset="1" stop-color="#a28802"/>
+    </radialGradient>
+    <radialGradient id="b" cx="32.61" cy="35.16" fx="11.08455550095266" r="29.13" gradientTransform="translate(-9.42 67.77) rotate(-90) scale(1 1.2)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#fed807"/>
+      <stop offset="0.35" stop-color="#fed728"/>
+      <stop offset="1" stop-color="#fefaed"/>
+    </radialGradient>
+  </defs>
+  <title>Light_Type_Icon</title>
+  <g style="isolation: isolate">
+    <g>
+      <circle cx="32.5" cy="32.52" r="32.5" style="fill: url(#a)"/>
+      <circle cx="32.5" cy="32.52" r="26.5" style="fill: url(#b)"/>
+      <g>
+        <image width="45" height="45" transform="translate(10 12)" xlink:href="data:image/png;base64,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" style="opacity: 0.1;mix-blend-mode: multiply"/>
+        <g>
+          <polygon points="48.85 16.15 38.5 32.5 48.85 48.85 32.5 38.5 16.15 48.85 26.5 32.5 16.15 16.15 32.5 26.5 48.85 16.15" style="fill: #fefefd"/>
+          <polygon points="32.5 17.5 35.33 29.67 47.5 32.5 35.33 35.33 32.5 47.5 29.67 35.33 17.5 32.5 29.67 29.67 32.5 17.5" style="fill: #fefefd"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
