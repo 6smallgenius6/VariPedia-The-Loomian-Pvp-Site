@@ -52,6 +52,41 @@
 	  float: left;
 	background-color: lightgray;
 	}
+	.row1ability1 {
+		width: 7.5%;
+		height: 15px;
+	  padding-left: 0px;
+	  margin-left: 40%;
+		position: absolute;
+	  float: top;
+	background-color: lightgray;
+	}
+	.row1ability2 {
+		width: 7.5%;
+		height: 15px;
+	  padding-left: 0px;
+	  margin-left: 40%;
+		position: absolute;
+	  float: middle;
+	background-color: lightgray;
+	}
+	.row1ability3 {
+		width: 7.5%;
+		height: 15px;
+	  padding-left: 0px;
+	  margin-left: 40%;
+		position: absolute;
+	  float: bottom;
+	background-color: lightgray;
+	}
+	.tier1 {
+		width: 5%;
+		height: 45px;
+	  padding-left: 0px;
+	  margin-left: 50%;
+	  float: left;
+	background-color: lightgray;
+	}
 	.row2 {
 		width: 90%;
 		height: 45px;
@@ -67,6 +102,41 @@
 		position: absolute;
 	  float: left;
 	background-color: white;
+	}	
+	.row2ability1 {
+		width: 7.5%;
+		height: 15px;
+	  padding-left: 0px;
+	  margin-left: 40%;
+		position: absolute;
+	  float: top;
+	background-color: lightgray;
+	}
+	.row2ability2 {
+		width: 7.5%;
+		height: 15px;
+	  padding-left: 0px;
+	  margin-left: 40%;
+		position: absolute;
+	  float: middle;
+	background-color: lightgray;
+	}
+	.row2ability3 {
+		width: 7.5%;
+		height: 15px;
+	  padding-left: 0px;
+	  margin-left: 40%;
+		position: absolute;
+	  float: bottom;
+	background-color: lightgray;
+	}
+	.tier2 {
+		width: 5%;
+		height: 45px;
+	  padding-left: 0px;
+	  margin-left: 50%;
+	  float: left;
+	background-color: white;
 	}
 	.sprite {
 			height: 45px;
@@ -77,27 +147,27 @@
 			height: 45px;
 			width: 45px;
 		position: absolute;
-	 margin-left: 25%
+	 margin-left: 20%
 	}
 	.type2sprite {
 			height: 45px;
 			width: 45px;
 		position: absolute;
-	 margin-left: 30%
+	 margin-left: 25%
 	}
 </style>
 		
 <style>
 table, th, td {
   border: 1px transparent black;
-	 margin-left: 70%;
+	 margin-left: 80%;
 	width: 20%;
 	height: 50%;
 }
 </style>
 	
 <aside>
-  <img src="https://6smallgenius6.github.io/VariPedia-The-Loomian-Pvp-Site/VariPedia.png" alt="VariPedia">
+  <img src="https://6smallgenius6.github.io/VariPedia-The-Loomian-Pvp-Site/img/VariPedia.png" alt="VariPedia">
 	<button type="button" onclick="window.location.href='https://6smallgenius6.github.io/VariPedia-The-Loomian-Pvp-Site/';" style="font-family:verdana;color: white;">Home</button>
 	<button type="button" onclick="window.location.href='https://6smallgenius6.github.io/VariPedia-The-Loomian-Pvp-Site/loomians';" style="font-family:verdana;color: white;">Loomians</button>
 	<button type="button" onclick="window.location.href='https://6smallgenius6.github.io/VariPedia-The-Loomian-Pvp-Site/moves';" style="font-family:verdana;color: white;">Moves</button>
@@ -114,9 +184,18 @@ table, th, td {
 <p style="font-family:verdana;"><b>Loomians With Ability Thief:</b></p>
 <div class = "row1">
 	<img class="sprite" src="https://6smallgenius6.github.io/VariPedia-The-Loomian-Pvp-Site/data/sprites/Kleptyke-menu.png" alt="Kleptyke">
-	<button class="row1button" onclick="window.location.href='https://6smallgenius6.github.io/VariPedia-The-Loomian-Pvp-Site/data/loomians/kleptyke';" style="font-family:verdana;color: black;">Kleptyke</button>
+	<button class="row1button" onclick="window.location.href='https://6smallgenius6.github.io/VariPedia-The-Loomian-Pvp-Site/data/loomians/kleptyke';" style="font-family:verdana;color: blue;">Kleptyke</button>
 	<img class="type1sprite" src="https://6smallgenius6.github.io/VariPedia-The-Loomian-Pvp-Site/data/sprites/Dark_Type_Icon.png" alt="Dark">
 	<img class="type2sprite" src="" alt="--">
+<div class="row1ability1">
+	<button class="row1button" onclick="window.location.href='https://6smallgenius6.github.io/VariPedia-The-Loomian-Pvp-Site/data/abilities/burglar';" style="font-family:verdana;color: blue;">Burglar</button>
+</div>
+<div class="row1ability3">
+	<button class="row1button" onclick="window.location.href='https://6smallgenius6.github.io/VariPedia-The-Loomian-Pvp-Site/data/abilities/abilitythief';" style="font-family:verdana;color: blue;">Ability Thief</button>
+</div>
+<div class="tier">
+	<p style="font-family:verdana;">LC Rank</p>
+</div>
 
 <table>
   <tr>
@@ -138,7 +217,6 @@ table, th, td {
     <td style="font-family:verdana;">95</td>
   </tr>
 </table>
-	<p position = "absolute" style="font-family:verdana;text-align:center">LC Rank</p>
 </div>
 <div class = "row2">
 	<img class="sprite" src="https://6smallgenius6.github.io/VariPedia-The-Loomian-Pvp-Site/data/sprites/Ragoon-menu.png" alt="Ragoon">
@@ -146,6 +224,17 @@ table, th, td {
 	<img class="type1sprite" src="https://6smallgenius6.github.io/VariPedia-The-Loomian-Pvp-Site/data/sprites/Dark_Type_Icon.png" alt="Dark">
 	<img class="type2sprite" src="" alt="--">
 	<p style="font-family:verdana;text-align:center">C Rank</p>
+	
+<div class="row2ability1">
+	<button class="row1button" onclick="window.location.href='https://6smallgenius6.github.io/VariPedia-The-Loomian-Pvp-Site/data/abilities/burglar';" style="font-family:verdana;color: blue;">Burglar</button>
+</div>
+<div class="row2ability3">
+	<button class="row1button" onclick="window.location.href='https://6smallgenius6.github.io/VariPedia-The-Loomian-Pvp-Site/data/abilities/abilitythief';" style="font-family:verdana;color: blue;">Ability Thief</button>
+</div>
+<div class="tier">
+	<p style="font-family:verdana;">C Rank</p>
+</div>
+
 <table>
   <tr>
     <th style="font-family:verdana;">HP</th>
@@ -166,7 +255,6 @@ table, th, td {
     <td style="font-family:verdana;">90</td>
   </tr>
 </table>
-	<p position="absolute" style="font-family:verdana;text-align:center">C Rank</p>
 </div>
 
 </div>
